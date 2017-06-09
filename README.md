@@ -22,10 +22,17 @@ b.- En Windows ejecutamos:
 	
 	gradlew build 
 
-Los resultados de los test unitarios se encuentran en el archivo 
+Los resultados de los test unitarios se encuentran en:
+
+Test Satisfactorio:
 
 	build/test-results/test/TEST-AppTest.xml
 
-Tambien es generado un archivo html con el reporte de los test:
+Test Fallido:
+
+	build/test-results/test/TEST-AppTestFail.xml
+
+
+Tambien es generado un archivo html con el reporte de los tests:
 
 	build/reports/tests/test/index.html
