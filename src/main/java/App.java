@@ -3,8 +3,8 @@
  */
 public class App {
     public String getGreeting() {
-        //return "Hello world.";
-        return "";
+        return "Hello world.";
+        //return "";
     }
 
     public static void main(String[] args) {
